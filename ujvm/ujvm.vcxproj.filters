@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="any.h" />
+    <ClInclude Include="class.h" />
+    <ClInclude Include="class_file.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="exception.h" />
+    <ClInclude Include="jar.h" />
+    <ClInclude Include="jvm.h" />
+    <ClInclude Include="opcode.h" />
+    <ClInclude Include="options.h" />
+    <ClInclude Include="reader.h" />
+    <ClInclude Include="stack_frame.h" />
+    <ClInclude Include="thread.h" />
+    <ClInclude Include="utf8.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="class_file.cpp" />
+    <ClCompile Include="dump_class_file.cpp" />
+    <ClCompile Include="jar.cpp" />
+    <ClCompile Include="jvm.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="opcode.cpp" />
+    <ClCompile Include="options.cpp" />
+    <ClCompile Include="thread.cpp" />
+    <ClCompile Include="utf8.cpp" />
+    <ClCompile Include="class.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{b1073501-19c0-4813-a69b-917f9b5a6784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{76e3627c-c589-45d6-a5a0-b42df61aecd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="native">
+      <UniqueIdentifier>{c2805fea-d211-4dda-af48-ac515b6c31d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
