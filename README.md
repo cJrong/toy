@@ -1,2 +1,2 @@
 # toy
-my toy box
+toy box
