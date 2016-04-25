@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{00113716-ca2d-49e4-ba57-e6753083ce68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{de393380-24f1-456d-b84a-4cc6b38313db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sb">
+      <UniqueIdentifier>{036c29de-032e-4b4a-8e0f-e2446f467d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sb\container">
+      <UniqueIdentifier>{7b9cb3ec-9030-4e44-9189-63ed75395bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sb">
+      <UniqueIdentifier>{07f6ab7b-6e75-4322-bb66-a295f5fbc179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sb\container">
+      <UniqueIdentifier>{d25ac5f9-5659-45f9-8c12-aebf02e29765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sb\event">
+      <UniqueIdentifier>{3bf9ff7d-67aa-46a1-a735-df42d5173aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sb\io">
+      <UniqueIdentifier>{e4150458-7cf9-4e88-a27a-945f0b948351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sb\math">
+      <UniqueIdentifier>{63d3adde-9461-4249-a463-47a2ba360bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sb\memory">
+      <UniqueIdentifier>{fe8dd034-1c7c-462f-b187-c0791c91eb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sb\event">
+      <UniqueIdentifier>{08a9e164-58a4-4b16-99ae-f2a1cd1c52ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sb\io">
+      <UniqueIdentifier>{a00906d5-9ede-425f-b951-ba32bdeb291e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sb\math">
+      <UniqueIdentifier>{ed52a1ad-1444-4b5e-8690-5225f7beade5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sb\memory">
+      <UniqueIdentifier>{e43642fb-f366-44e9-824b-83e97833e0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sb\os">
+      <UniqueIdentifier>{5326fb90-74ec-4372-972e-4d4ad9ce059b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sb\traits">
+      <UniqueIdentifier>{ae5bc77c-da60-4f73-9144-f8dafc5f3e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sb\os\win32">
+      <UniqueIdentifier>{6413693a-5e17-4ec1-98a5-095f7eae27d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sb\os">
+      <UniqueIdentifier>{e8845421-999f-4b5f-9374-ef35f7d09869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sb\os\win32">
+      <UniqueIdentifier>{0da6b218-8207-4480-a69f-48d711d7e182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tests">
+      <UniqueIdentifier>{8dc88546-af34-4177-a783-6f0d51dbf20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tests\container">
+      <UniqueIdentifier>{fc380445-2707-4613-9151-f4a2954ac519}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_avltree.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_hash.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_hash_func.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_hlist.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_list.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_queue.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_rbtree.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_slist.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_splaytree.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_stack.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_string.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_tuple.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\event\sb_event.h">
+      <Filter>include\sb\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\io\sb_console.h">
+      <Filter>include\sb\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\math\sb_random.h">
+      <Filter>include\sb\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_alloc.h">
+      <Filter>include\sb\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_memops.h">
+      <Filter>include\sb\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_pool.h">
+      <Filter>include\sb\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_spool.h">
+      <Filter>include\sb\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_strops.h">
+      <Filter>include\sb\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\traits\sb_args.h">
+      <Filter>include\sb\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\os\sb_allocate.h">
+      <Filter>include\sb\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\os\sb_time.h">
+      <Filter>include\sb\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\os\win32\sb_win32_config.h">
+      <Filter>include\sb\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\os\win32\sb_win32_files.h">
+      <Filter>include\sb\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\os\win32\sb_win32_memory.h">
+      <Filter>include\sb\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\os\win32\sb_win32_time.h">
+      <Filter>include\sb\os\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\sb_config.h">
+      <Filter>include\sb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_array.h">
+      <Filter>include\sb\container</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_avltree.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_bytes.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_hash.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_hash_func.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_list.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_rbtree.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_slist.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_splaytree.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_string.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\event\sb_event.c">
+      <Filter>src\sb\event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\math\sb_random.c">
+      <Filter>src\sb\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_alloc.c">
+      <Filter>src\sb\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_memops.c">
+      <Filter>src\sb\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_pool.c">
+      <Filter>src\sb\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_spool.c">
+      <Filter>src\sb\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_strops.c">
+      <Filter>src\sb\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\os\win32\sb_win32_files.c">
+      <Filter>src\sb\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\os\win32\sb_win32_time.c">
+      <Filter>src\sb\os\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_array.c">
+      <Filter>src\sb\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tests\container\tsb_array.c">
+      <Filter>src\tests\container</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

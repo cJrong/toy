@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{92A342F3-75BB-4079-8533-5953727FA3D1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>sb</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Cygwin\home\vefic\projects\sb\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Cygwin\home\vefic\projects\sb\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Cygwin\home\vefic\projects\sb\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Cygwin\home\vefic\projects\sb\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_avltree.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_hash.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_hash_func.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_hlist.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_list.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_queue.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_rbtree.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_slist.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_splaytree.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_stack.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_string.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_tuple.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\container\sb_array.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\event\sb_event.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\io\sb_console.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\math\sb_random.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_alloc.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_memops.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_pool.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_spool.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\memory\sb_strops.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\os\sb_allocate.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\os\sb_time.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\os\win32\sb_win32_config.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\os\win32\sb_win32_files.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\os\win32\sb_win32_memory.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\os\win32\sb_win32_time.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\sb_config.h" />
+    <ClInclude Include="..\..\..\..\..\include\sb\traits\sb_args.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_avltree.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_bytes.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_hash.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_hash_func.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_list.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_rbtree.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_slist.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_splaytree.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_string.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\container\sb_array.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\event\sb_event.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\math\sb_random.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_alloc.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_memops.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_pool.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_spool.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\memory\sb_strops.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\os\win32\sb_win32_files.c" />
+    <ClCompile Include="..\..\..\..\..\src\sb\os\win32\sb_win32_time.c" />
+    <ClCompile Include="..\..\..\..\..\src\tests\container\tsb_array.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
