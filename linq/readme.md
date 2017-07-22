@@ -1,4 +1,4 @@
-##Linq
+## Linq
 
 Linq for list comprehension in `C++`, provides an implementation of linq for `C++`. Here's an example:
 
@@ -107,15 +107,15 @@ methods:
 
 ## Build
 
-####g++ 4.8.4
+#### g++ 4.8.4
 ```
 g++ -std=c++11 -o enumerable main.cpp
 ```
 
-####clang++ 3.5
+#### clang++ 3.5
 ```
 clang++-3.5 -std=c++11 -o enumerable main.cpp
 ```
 
-####msvc 2013
+#### msvc 2013
 see msvc folder
